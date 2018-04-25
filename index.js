@@ -12,7 +12,7 @@ program
   .option("-u, --upload <upload>", "Upload an mp3 file to the sound collection")
   .parse(process.argv);
 
-const BASE_URL = process.env.SAY_IT_SERVER_URL || "http://127.0.0.1:3000";
+const BASE_URL = process.env.SAY_IT_SERVER_URL || "http://172.16.1.50:3000";
 
 let url = BASE_URL;
 
