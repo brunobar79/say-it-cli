@@ -4,9 +4,11 @@ say-it-cli is intended to be used with a  [say-it-server](https://github.com/bru
 
 Usage: say-it [options]
 
-  Options:
+Options:
 
     -t, --text <text>      The text to speech voice
     -g, --gender <gender>  The gender of the voice
+    -l, --list             List all the available sounds to play
     -s, --sound <sound>    The name of the sound to play
+    -u, --upload <upload>  Upload an mp3 file to the sound collection
     -h, --help             output usage information
