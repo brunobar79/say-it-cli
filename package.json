@@ -1,0 +1,25 @@
+{
+  "name": "say-it-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunobar79/say-it-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunobar79/say-it-cli/issues"
+  },
+  "homepage": "https://github.com/brunobar79/say-it-cli#readme",
+  "bin": {
+    "say-it": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.15.1"
+  }
+}
