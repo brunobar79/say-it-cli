@@ -2,7 +2,13 @@
 
 say-it-cli is intended to be used with a  [say-it-server](https://github.com/brunobar79/say-it-server) and it allows you to trigger sounds or text-to-speech on the remote server.
 
-Usage: say-it [options]
+## Installation
+
+npm i -g https://github.com/brunobar79/say-it-cli
+
+## Usage: 
+
+say-it [options]
 
 Options:
 
